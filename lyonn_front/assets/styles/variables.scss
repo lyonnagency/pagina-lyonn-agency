@@ -1,0 +1,107 @@
+// responsive web rules
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+$browser-context: 16;
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+$menu-padding-x: 68px;
+// Hay que crear un sistema de responsive para las  fuentes
+// Para cada unidad habrá que crear una cariación en cada breakpoint:
+// $s12
+// $s12Sm
+// $s12Md
+// $s12Lg
+// $s12Xl
+
+$s12: em(12);
+$s13: em(13);
+$s14: em(14);
+$s16: em(16);
+$s18: em(18);
+$s20: em(20);
+$s22: em(22);
+$s25: em(25);
+$s30: em(30);
+$s33: em(33);
+$s40: em(40);
+$s45: em(45);
+$s70: em(70);
+$s79: em(78);
+$s80: em(60);
+
+$color-design: #ff5a5f;
+$color-dev: #22aff8;
+$color-mk: #6ec028;
+$color-prod: #631588;
+$color-reg: #fa8232;
+$color-yellow: #ffcc54;
+$color-green: #00e2ad;
+
+$blackLyonn: #262626;
+
+$cardSizePortfolioSm: 30%;
+$cardSizePortfolioMd: 23%;
+$height-img-portfolioSm: 240px;
+$leftPositionSm: -45%;
+$leftPositionMd: -46%;
+
+$height-img-portfolio: 350px;
+$height-img-portfolioXs: 30vh;
+$height-img-portfolioMd: 30vh;
+
+
+//Partners
+$cardSizePortPartnersXs: 45%; //
+$LeftcardSizePortPartnersXs: 85%; //
+
+$cardSizePortPartnersSm: 16%; //
+$LeftcardSizePortPartnersSm: 40%; //
+
+$cardSizePortPartnersMd: 12%; //
+$LeftcardSizePortPartnersMd: 42%; //
+
+// Falta agregarlo
+$cardSizePortPartnersLg: 12%; //
+$LeftcardSizePortPartnersLg: 22%; //
+$t3s: 0.3s;

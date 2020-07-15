@@ -1,0 +1,118 @@
+
+@mixin shadow-03 {
+  -webkit-box-shadow: 0px 0px 80px 3px rgba(204, 204, 204, .3);
+  -moz-box-shadow: 0px 0px 80px 3px rgba(204, 204, 204, .3);
+  box-shadow: 0px 0px 80px 3px rgba(204, 204, 204, .3);
+}
+@mixin hoverOpacity {
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+@mixin underLineHover {
+  position: relative;
+      &::after {
+        content: "";
+        width: 0%;
+        //height: 2px;
+        height: 0.1em;
+        background: black;
+        left: 0;
+        display: inline-block;
+        position: absolute;
+        bottom: -7px;
+        transition: all $t3s linear;
+      }
+      &:hover {
+        text-decoration: none;
+        &::after {
+          width: 50%;
+        }
+      }
+}
+
+@mixin underLineHoverActive {
+  position: relative;
+  &::after {
+    content: "";
+    width: 0%;
+    width: 50%;
+    //height: 2px;
+    height: 0.1em;
+    background: black;
+    left: 0;
+    display: inline-block;
+    position: absolute;
+    bottom: -7px;
+    transition: all $t3s linear;
+  }
+}
+
+@mixin resetHoverLink {
+  &:hover {
+    text-decoration: none;
+    color: inherent !important;
+  }
+}
+
+@mixin trac200 {
+  letter-spacing: 4px;
+}
+@mixin trac50 {
+  letter-spacing: 1px;
+}
+
+// @mixin lineFloatLeft {
+//   position: relative;
+//   &::before {
+//     content: '';
+//     width: 0.1rem;
+//     height: 0;
+//     left: -25px;
+//     background-color: $orangeB;
+//     position: absolute;
+//     transition: height $timer linear;
+//   }
+//   &:hover:before {
+//     height: 100%;
+//   }
+// }
+// @mixin lineFloatLeftNoHover {
+//   position: relative;
+//   &::before {
+//     content: '';
+//     width: 0.1rem;
+//     height: 100%;
+//     left: -25px;
+//     background-color: $orangeB;
+//     position: absolute;
+//     transition: height $timer linear;
+//   }
+// }
+
+// @mixin resetLink {
+//   &:hover {
+//     text-decoration: none;
+//     color: $blueB;
+//   }
+// }
+
+// @mixin baseText {
+//   color: $blueB;
+//   font-family: 'century-gothic';
+//   font-weight: bold;
+// }
+
+@mixin menuPosition {
+  background-color: white;
+  position: absolute;
+  width: 101vw;
+  height: 100vh;
+  left: -33%;
+  top: -15%;
+  z-index: 5;
+  // @include lg{
+  //   width: 100vw;
+  // }
+}

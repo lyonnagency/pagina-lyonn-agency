@@ -6,10 +6,11 @@ export default {
   */
   head: {
     // title: 'Lyonn Agency | Publicidad, diseño de logotipos, páginas web' || '',
-    titleTemplate: 'Agencia Lyonn | %s',
+    titleTemplate: 'Lyonn Agency | %s',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'p:domain_verify', content: 'eb2e4cf3d0adf5e8a00d87a6942ec320' },
       // { hid: 'description', name: 'description', content: 'Somos una agencia de publicidad en Morelia que ofrece diseño gráfico, páginas web, tiendas en línea, diseño de logotipos y producción audiovisual.'|| '' }
     ],
     link: [
@@ -39,15 +40,15 @@ export default {
   buildModules: [
   ],
   // Dev
-  // server: {
-  //   port: 30740,
-  //   // host:'192.168.100.4'
-  // },
+  server: {
+    // port: 30740,
+    host:'192.168.1.100'
+  },
 
   // PRODUCTION
-  server: {
-    port: 19124, // hay que cambiarlo
-  },
+  // server: {
+  //   port: 19124, // hay que cambiarlo
+  // },
   /*
   ** Nuxt.js modules
   */
@@ -63,7 +64,7 @@ export default {
   */
   axios: {
     // baseURL: ' http://127.0.0.1:8000/',
-    baseURL: 'https://api.lyonn.co/',
+    // baseURL: 'https://api.lyonn.co/',
     // credentials: true,
   },
   /*

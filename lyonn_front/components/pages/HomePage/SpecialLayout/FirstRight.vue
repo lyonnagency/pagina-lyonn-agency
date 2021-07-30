@@ -5,7 +5,8 @@
         <div class="px-xl-5 py-xl-5 w-100">
           <img class="ico-area-hero" src="~/assets/img/ico/area-design.svg"
                alt="Diseño Gráfico Lyonn Agency">
-          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-design">Diseño de marcas</h2>
+<!--          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-design">Diseño de marcas</h2>-->
+          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-design">Brand Design</h2>
         </div>
       </div>
     </div>
@@ -16,7 +17,8 @@
         <div class="px-xl-5 py-xl-5 w-100">
           <img class="ico-area-hero" src="~/assets/img/ico/area-m.k.svg"
                alt="Diseño Gráfico Lyonn Agency">
-          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-mk">Marketing digital</h2>
+<!--          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-mk">Marketing digital</h2>-->
+          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-mk">Digital Marketing</h2>
         </div>
       </div>
       <!--COMPONENT-->
@@ -27,7 +29,8 @@
         <div class="pxllg-5 pxllg-5 w-100">
           <img class="ico-area-hero" src="~/assets/img/ico/area-d.t.svg"
                alt="Diseño Gráfico Lyonn Agency">
-          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-dev">Desarrollo web</h2>
+<!--          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-dev">Desarrollo web</h2>-->
+          <h2 class="ff-boston fw-500 fs-16 mt-4 px-2 px-sm-4 text-color-dev">Web Development</h2>
         </div>
       </div>
     </div>

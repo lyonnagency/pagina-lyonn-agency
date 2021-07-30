@@ -24,8 +24,8 @@
         <line class="cls-3" x1="18.02" y1="236.68" x2="18.06" y2="256.08" />
         <line class="cls-3" x1="13.27" y1="256.09" x2="22.85" y2="256.07" />
         <circle class="cls-2" cx="10.45" cy="26.24" r="9.02" />
-        <text ref="startTxt" class="cls-4" transform="translate(27.03 18.24)">Estrategia</text>
-        <text ref="goalTxt" class="cls-4" transform="translate(40.11 283.98)">Meta!</text>
+        <text ref="startTxt" class="cls-4" transform="translate(27.03 18.24)">Strategy</text>
+        <text ref="goalTxt" class="cls-4" transform="translate(40.11 283.98)">Goal!</text>
       </g>
     </g>
   </svg>

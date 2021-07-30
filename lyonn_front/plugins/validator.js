@@ -23,13 +23,15 @@ const config = {
 
 import * as rules from 'vee-validate/dist/rules';
 import es from 'vee-validate/dist/locale/es.json';
+import en from 'vee-validate/dist/locale/en.json';
 // loop over all rules
 for (let rule in rules) {
   // add the rule
   extend(rule,
     {
       ...rules[rule],
-      message: es.messages[rule]
+      // message: es.messages[rule]
+      message: en.messages[rule]
     }
   );
 }

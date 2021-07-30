@@ -5,7 +5,8 @@
      {{description}}
     </p>
     <button class="btn-lyonn" :class="classBtn">
-      Comenzar
+<!--      Comenzar-->
+      Start Now
     </button>
   </div>
 </template>

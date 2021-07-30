@@ -16,10 +16,12 @@
           </div>
           <div class="col-md-6 col-lg-4 d-flex align-items-center flex-wrap justify-content-center mt-3 mx-4">
             <a href="https://wa.me/5214435060575" target="_blank" class="btn-lyonn mx-2 my-2 btn-border-black">
-              Contáctanos
+<!--              Contáctanos-->
+              Contact Us
             </a>
             <a href="https://wa.me/5214435060575" target="_blank" class="btn-lyonn mx-2 my-2 btn-border-black">
-              Comenzar
+<!--              Comenzar-->
+              Start Now
             </a>
           </div>
         </div>

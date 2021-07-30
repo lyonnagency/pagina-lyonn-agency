@@ -44,7 +44,7 @@
           href="https://wa.me/5214435060575"
           target="_blank"
         >
-          <span class="ff-gilroy-bold fw-700 fs-13 fs-sm-13 d-none d-sm-block">Contáctanos</span>
+          <span class="ff-gilroy-bold fw-700 fs-13 fs-sm-13 d-none d-sm-block">Contact Us</span>
           <img
             class="wp-menu ml-3"
             src="~/assets/img/ico/wp-positive.svg"
@@ -74,24 +74,36 @@
         <div class="d-flex h-fi flex-wrap menu-content">
           <div class="container-body px-lg-4 d-flex flex-wrap align-items-center flex-wrap">
             <b-navbar-nav class="col-md-6 col-lg-6 col-12 col-sm-6 menu-links h-fit px-3">
-              <b-nav-item class="hover-line-middle" to="/areas/diseno"><span>Diseño.</span></b-nav-item>
-              <b-nav-item class="hover-line-middle" to="/areas/desarrollo"><span>Desarrollo.</span></b-nav-item>
-              <b-nav-item class="hover-line-middle" to="/areas/mercadotecnia"><span>Mercadotecnia.</span></b-nav-item>
-              <b-nav-item class="hover-line-middle" to="/areas/audiovisual"><span>Audiovisual.</span></b-nav-item>
+              <b-nav-item class="hover-line-middle" to="/areas/diseno"><span>
+<!--                Diseño.-->
+                Design.
+              </span></b-nav-item>
+              <b-nav-item class="hover-line-middle" to="/areas/desarrollo"><span>
+<!--                Desarrollo.-->
+                Web Development.
+              </span></b-nav-item>
+              <b-nav-item class="hover-line-middle" to="/areas/mercadotecnia"><span>
+<!--                Mercadotecnia.-->
+                Marketing.
+              </span></b-nav-item>
+              <b-nav-item class="hover-line-middle" to="/areas/audiovisual"><span>
+<!--                Audiovisual.-->
+                Audiovisual.
+              </span></b-nav-item>
               <!--              <b-nav-item href="/contacto">Contacto</b-nav-item>-->
             </b-navbar-nav>
 
             <b-navbar-nav
               class="col-md-2 col-lg-2 col-12 col-sm-3 offset-sm-3 offset-md-4 offset-lg-3 menu-links h-fit px-3 d-flex flex-row flex-sm-column mt-3">
               <div class="col-6 px-sm-0 col-sm-12 pl-0">
-                <b-nav-item class="link-18 py-1 hover-line-middle" to="/"><span>Inicio.</span></b-nav-item>
-                <b-nav-item class="link-18 py-1 hover-line-middle" to="/servicios"><span>Servicios.</span></b-nav-item>
-                <b-nav-item class="link-18 py-1 hover-line-middle" to="/galeria"><span>Galería.</span></b-nav-item>
+                <b-nav-item class="link-18 py-1 hover-line-middle" to="/"><span>Home.</span></b-nav-item>
+                <b-nav-item class="link-18 py-1 hover-line-middle" to="/servicios"><span>Services.</span></b-nav-item>
+                <b-nav-item class="link-18 py-1 hover-line-middle" to="/galeria"><span>Gallery.</span></b-nav-item>
               </div>
               <div class="col-6 px-sm-0 col-sm-12">
-                <b-nav-item class="link-18 py-1 hover-line-middle" to="/portafolio"><span>Portafolio.</span></b-nav-item>
-                <b-nav-item class="link-18 py-1 hover-line-middle" to="/nosotros"><span>Nosotros.</span></b-nav-item>
-                <b-nav-item class="link-18 py-1 hover-line-middle" to="/contacto"><span>Contacto.</span></b-nav-item>
+                <b-nav-item class="link-18 py-1 hover-line-middle" to="/portafolio"><span>Portfolio.</span></b-nav-item>
+                <b-nav-item class="link-18 py-1 hover-line-middle" to="/nosotros"><span>About Us.</span></b-nav-item>
+                <b-nav-item class="link-18 py-1 hover-line-middle" to="/contacto"><span>Contact.</span></b-nav-item>
               </div>
               <!--              <b-nav-item href="/contacto">Contacto</b-nav-item>-->
             </b-navbar-nav>
@@ -123,8 +135,8 @@
                   </div>
                 </div>
                 <div class="col-lg-7 d-flex flex-wrap px-0 mt-3 mt-sm-0">
-                  <a target="_blank" class="py-1 mx-sm-2 col-12 col-sm px-0  line-float-left-menu" href="tel:5214432209267">Movil (443) 220 9267</a>
-                  <a target="_blank" class="py-1 mx-sm-2 col-12 col-sm px-0 " href="tel:5214435060575">Oficina (443) 506 0575</a>
+                  <a target="_blank" class="py-1 mx-sm-2 col-12 col-sm px-0  line-float-left-menu" href="tel:5214432209267">Phone (443) 220 9267</a>
+                  <a target="_blank" class="py-1 mx-sm-2 col-12 col-sm px-0 " href="tel:5214435060575">Office (443) 506 0575</a>
                   <a target="_blank" class="py-1 mx-sm-2 col-12 col-sm px-0 " href="mailto:hola@lyonn.co">Mail hola@lyonn.co</a>
                 </div>
               </div>

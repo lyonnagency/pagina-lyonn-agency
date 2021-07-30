@@ -14,7 +14,7 @@
     props: {
       linkText:{
         type: String,
-        default:'Ver portafolio completo'
+        default:'View Full Portfolio'
       },
       linkRef:{
         type: String,

@@ -88,7 +88,7 @@
       //   else if (this.mouse.endX > this.mouse.startX) this.moveSliderRight();
       // },
       getImage(item) {
-        return require('~/assets/img/' + this.subDirectory + item)
+          return require('~/assets/img/' + this.subDirectory + item)
       }
     },
     data() {

@@ -13,10 +13,11 @@
 
         <div class=" container">
           <h2 class="ff-gilroy-black fs-40 text-center">
-            La página de {{nombrePagina}} <br> esta siendo mejorada.
+<!--            La página de {{nombrePagina}} <br> esta siendo mejorada.-->
+            This page is being improved, please come back later.
           </h2>
           <h3 class="ff-gilroy-black fs-30 text-center mt-4">
-            Te invitamos a explorar nuetras redes sociales ó a que veas nuestro portafolio de trabajo.
+            We invite you to explore our social networks and see our work portfolio.
           </h3>
 
           <div class="social-icons-footer d-flex mt-5 justify-content-center">

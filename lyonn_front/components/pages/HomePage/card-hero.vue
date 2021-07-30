@@ -18,7 +18,8 @@
       },
       text:{
         type: String,
-        default:'Diseño Gráfico.'
+        // default:'Diseño Gráfico.'
+        default:'Graphic Design.'
       }
     }
   }
